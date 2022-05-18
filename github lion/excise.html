@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>example</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width" "initial-scale=1.0"> 
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<style>
+*{
+padding:0;
+margin:0;
+}
+header{
+background-image:url("D:project/saravanan/img/pro/pro3.jpg");
+background-position:cover;
+background-size:1390px 400px;
+position:relative;
+background-repeat:no-repeat;
+height:400px;
+}
+.logo img{
+width:20px;
+padding:10px 0px 10px 200px;
+margin:0px;
+float:left;
+}
+.logo h2{
+font-style:bold;
+padding:7px 10px 10px 8px;
+margin:0;
+float:left;
+color:white;
+text-transform:uppercase;
+animation:logo 1s ease-in-out;
+}
+@keyframes logo{
+0%{
+transform:translatey(-100%);
+}
+}
+.logo{
+position:absolute;
+}
+.oval nav{
+display:flex;
+justify-content:right;
+animation:nav 1s ease-in-out;
+}
+@keyframes nav{
+0%{
+transform:translatey(-100%);
+}
+}
+.oval nav{
+padding-top:10px;
+background-color:black;
+max-width:100%;
+height:30px;
+text-align:center;
+}
+.oval nav ul{
+text-align:center;
+}
+.oval nav ul li{
+display:inline-block;
+}
+.oval nav ul li a{
+list-style:none;
+font-size:bold;
+text-decoration:none;
+padding:20px;
+color:white;
+}
+.oval nav ul li a:hover{ 
+background-color:red;
+transition:0.9s;
+text-transform:uppercase;
+padding:1px;
+}
+.arrow{
+cursor:pointer;
+position:absolute;
+top:55%;
+border-style:solid;
+width:0;
+height:0;
+margin-top:-20px;
+box-sizing:border-box;
+}
+#arrow-left{
+border-width:8px 16px 8px 0;
+left:0;
+margin-left:5px;
+border-color:transparent black transparent transparent;
+box-sizing:border-box;
+}
+#arrow-right{
+border-width:8px 0 8px 16px;
+margin-right:5px;
+right:0;
+border-color:transparent transparent transparent black;
+}
+.checkbtn{
+	font-size:40px;
+	color:white;
+	float:right;
+	margin-right:40px;
+	line-height:8px;
+}	
+.subhead{
+margin-top:130px;
+padding-left:100px;
+text-transform:capitalize;
+color:white;
+animation:head 1s ease-in-out;
+}
+@keyframes head{
+0%{
+opacity:0;
+transform:translatex(-50%);
+}
+}
+.subhead p{
+font-size:10px;
+}
+.mainlogo{
+display:flex;
+flex-direction:row;
+justify-content:center;
+background-color:green;
+width:100%;
+height:200px;
+}
+.logo2{
+width:300px;
+height:auto;
+text-align:center;
+margin-right:30px;
+}
+.logo3{
+width:300px;
+height:auto;
+text-align:center;
+margin-right:30px;
+}
+.logo4{
+width:300px;
+height:auto;
+text-align:center;
+margin-right:40px;
+}
+.logo2 h2{
+text-align:center;
+color:white;
+text-transform:capitalize;
+padding:30px;
+}
+.logo2 p{
+color:white;
+text-transform:capitalize;
+}
+.pro img{
+width:40px;
+height:auto;
+padding:35px 30px 0 35px;
+}
+.logo3 h2{
+text-align:center;
+color:white;
+text-transform:capitalize;
+padding:30px;
+}
+.logo3 p{
+color:white;
+text-transform:capitalize;
+}
+.fac img{
+width:30px;
+height:auto;
+padding:40px 30px 0 30px;
+}
+.logo4 h2{
+text-align:center;
+color:white;
+text-transform:capitalize;
+padding:30px;
+}
+.logo4 p{
+color:white;
+text-transform:capitalize;
+}
+.go img{
+width:30px;
+height:auto;
+padding:40px 30px 0 30px;
+}
+.oval2{
+display:flex;
+flex-direction:row;
+justify-content:space-around;
+background-color:yellow;
+padding:40px 0;
+width:100%;
+height:200px;
+}
+.pro1{
+width:300px;
+height:100px;
+
+text-align:center;
+}
+.pro1 h2{
+color:red;
+padding:10px 0 0 0;
+text-transform:capitalize;
+}
+.pro1 p{
+font-size:10px;
+color:black;
+text-transform:capitalize;
+}
+.pro2{
+width:320px;
+height:auto;
+}
+.pro3{
+width:320px;
+height:auto;
+}
+.pro4{
+width:320px;
+height:500px;
+}
+.oval3{
+background-color:red;
+width:100%;
+height:260px;
+}
+.pro5{
+text-align:center;
+padding-top:20px;
+}
+.pro5 h2{
+color:yellow;
+text-transform:capitalize;
+}
+.pro5 p{
+color:white;
+}
+.oval4{
+float:left;
+border:1px solid white;
+border-width:0 0 0 1px;
+margin-left:80px; 
+margin-top:30px;
+padding:10px 10px 10px 20px;
+}
+.pro6{
+width:500px;
+height:50px;
+}
+.pro6 p{
+color:white;
+font-size:15px;
+}
+.pro6 h3{
+color:yellow;
+font-size:10px;
+}
+.pro7{
+width:500px;
+height:50px;
+padding-top:10px;
+}
+.pro7 h3{
+color:yellow;
+font-size:10px;
+}
+.pro7 p{
+color:white;
+font-size:15px;
+}
+.oval5{
+float:left;
+border:1px solid white;
+border-width:0 0 0 1px;
+margin-left:100px;
+margin-top:30px;
+padding:10px 10px 10px 20px;
+}
+.pro8{
+width:500px;
+height:50px;
+
+}
+.pro8 h3{
+color:yellow;
+font-size:10px;
+}
+.pro8 p{
+color:white;
+font-size:15px;
+}
+
+.pro9{
+width:500px;
+height:50px;
+padding-top:10px;
+}
+.pro9 h3{
+color:yellow;
+font-size:10px;
+}
+.pro9 p{
+color:white;
+font-size:15px;
+}
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.oval{
+width:100%;
+}
+header{
+background-size:320px 400px;
+}
+.logo
+{
+text-align:left;
+color:yellow;
+cursor:pointer;
+}
+.logo img{
+padding:10px 0 0 0;
+margin:0;
+}
+.subhead{
+color:black;
+padding:1px 0 0 30px;
+}
+.subhead p{
+padding-top:7px;
+letter-spacing:1px;
+}
+.mainlogo{
+width:100%;
+height:650px;
+flex-direction:column;
+background-color:red;
+}
+.pro{
+width:60px;
+height:auto;
+}
+.pro img{
+margin:0px 0 0 20px;
+padding:0;
+}
+.logo2{
+    width:250px;
+    height:auto;
+    margin-left:34px;
+    margin-top:-100px;
+}
+.fac{
+width:60px;
+height:auto;
+}
+.fac img{
+margin:20px 0 -10px 20px;
+padding:10px;
+}
+.logo3{
+    width:250px;
+    height:auto;
+    margin-left:34px;
+    margin-top:-60px;
+}
+.go{
+width:60px;
+height:auto;
+}
+.go img{
+margin:20px 0 -20px 20px;
+padding:10px;
+}
+.logo4{
+    width:250px;
+    height:auto;
+    margin-left:34px;
+    margin-top:-60px;
+}
+.oval2{
+	width:100%;
+	height: 700px;
+    background-color: green;
+	display:flex;
+	flex-direction:column;
+	padding-top:40px;
+}
+.pro1 h2{
+	width:250px;
+	padding-left:30px;
+    color: white;
+}
+.pro1 p{
+    padding-top: 20px;
+	color:red;
+	font-size:10px;
+}
+.pro2 img{
+	    width: 250px;
+    margin-left: 34px;
+	padding-top: 20px;
+}
+.pro3 img{
+	    width: 250px;
+    margin-left: 34px;
+    padding-top: 40px;
+}
+.pro4 img{
+	width: 250px;
+    height: 200px;
+    margin-left: 35px;
+    padding-top: 40px;
+}
+.oval3 {
+    height: 900px;
+    width: 320px;
+	background-color: currentcolor;
+}
+.pro5 h2 {
+    color: #00e7ff;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.pro5 p {
+    color: an;
+    width: 250px;
+    margin-left: 36px;
+    padding-top: 8px;
+    color: darkcyan;
+}
+.oval4 {
+    padding-top: 2px;
+    margin-left: 7px;
+	border:0;
+}
+.pro6 {
+    width: 250px;
+    height: 100px;
+    padding-top: 6px;
+    margin-left: 17px;
+}
+.pro6 h3 {
+    font-size: 15px;
+    padding-top: 20px;
+    color: blueviolet;
+}
+.pro7 {
+    width: 250px;
+    height: 100px;
+    padding-top: 50px;
+    margin-left: 17px;
+}
+.pro7 h3 {
+    padding-top: 30px;
+    letter-spacing: 3px;
+    color: violet;
+}
+.pro7 p {
+    font-size: 23px;
+    letter-spacing: 2px;
+    color: blanchedalmond;
+}
+.oval5 {
+    width: 190px;
+    height: 150px;
+    padding-top: 79px;
+	border:0;
+}
+.pro8 {
+    margin-left: -70px;
+    width: 220px;
+}
+.pro8 p {
+    letter-spacing: 2px;
+    color: yellowgreen;
+}
+.pro8 h3 {
+    padding-top: 30px;
+    letter-spacing: 3px;
+    color: chartreuse;
+}
+.pro9 {
+    letter-spacing: 2px;
+    width: 200px;
+    padding-top: 109px;
+    margin-left: -69px;
+}
+.pro9 p {
+    color: aqua;
+	padding-bottom:20px;
+}	
+.pro h3{
+padding-top:30px;
+letter-spacing:3px;
+color:blanchedalmond;
+}	
+	
+
+
+</style>
+</head>
+<body>
+<div class="oval">
+<header>
+	  <div id="arrow-left" class="arrow">
+	  </div>
+       <div class="logo">
+       <img src="D:project/saravanan/img/pro/logo.png">
+	   <h2>flat theme</h2>
+	   </div>
+	   <div id="arrow-right" class="arrow">
+	   </div>
+	   <nav>
+	   <input type="checkbox" id="check">
+	   <label for="check" class="checkbtn">
+	   <i class="fas-fa-bars"></i>
+	   </label>
+         <ul>
+           <li><a href="#">home</a></li>
+           <li><a href="#">about</a></li>
+	       <li><a href="#">branches</a></li>
+           <li><a href="#">courses</a></li>
+		   <li><a href="#">contact</a></li>
+		   <li><a href="#">excercise</a></li>
+           </ul>
+        </nav>
+		<div class="subhead">
+		<h2>powerful and responsive web design</h2>
+		<p>hi welocome to my excise project task in html,css..then i will learn with more</p>
+		</div>
+</header>				
+<div class="mainlogo">
+        <div class="pro"><img src="D:project/saravanan/img/pro/twit..png"></div>
+		<div class="logo2">
+		<h2>twitter marketing</h2>
+		<p>jallikattu requires the bull fighters to pounce on a running bull and move along with the animal without falling. 
+		  Bull fighters need to be very alert fighter.</p>	
+          </div>	  
+		<div class="fac"><img src="D:project/saravanan/img/icons/face.png"></div>
+		 <div class="logo3">
+		 <h2>facebook marketing</h2>
+		 <p>The Chippiparai dog is a sighthound breed of dog. It is a single-colored breed from Tamil Nadu, India. It is mainly found
+		   in the are called Kanni..</p>
+		   </div>
+		   <div class="go"><img src="D:project/saravanan/img/pro/goo.png"></div>
+		 <div class="logo4">
+         <h2>google plus marketing</h2>
+          <p>jallikattu requires the bull fighters to pounce on a running bull and move along with the animal without falling. 
+		      Bull shake off the fighter.</p>
+           </div>			  	
+</div>     
+          
+<div class="oval2">
+         <div class="pro1">
+		 <h2>our latest project</h2>
+		 <p>to pounce on a running bull with the animal without falling.</p>
+		 </div>
+          
+		  <div class="pro2"><img src="D:project/saravanan/img/pro/pro7.jpg"></div>
+           <div class="pro3"><img src="D:project/saravanan/img/pro/pro5.jpg"></div>
+      <div class="pro4"><img src="D:project/saravanan/img/pro/pro8.jpg"></div>  
+</div> 
+
+   <div class="oval3">
+             
+           <div class="pro5">
+		   <h2>what our clients say</h2>
+           <p>jallikattu requires the bull fighters to pounce on a running bull with the animal without falling.</p>
+	</div>
+            
+    <div class="oval4">
+             <div class="pro6">
+			 <p>The Chippiparai dog is a sighthound breed of dog. It is a single-colored breed from Tamil Nadu, India.</p>
+		     <h3>to pounce on a running bull with the animal without falling.</h3>
+		     </div>
+		    
+		     <div class="pro7">
+             <p>The Chippiparai dog is a sighthound breed of dog. It is a single-colored breed from Tamil Nadu, India.</p>			 
+             <h3>to pounce on a running bull with the animal without falling.</h3>
+		     </div>
+    </div>
+      <div class="oval5">       
+			 <div class="pro8">
+             <p>The Chippiparai dog is a sighthound breed of dog. It is a single-colored breed from Tamil Nadu, India.</p>			 
+             <h3>to pounce on a running bull with the animal without falling.</h3>
+             </div>
+			   
+			<div class="pro9">
+			<p>The Chippiparai dog is a sighthound breed of dog. It is a single-colored breed from Tamil Nadu, India.</p>			 
+            <h3>to pounce on a running bull with the animal without falling.</h3>
+            </div>
+     </div>
+</div>   
+</div>  
+</body>
+</html> 
+
+
+       
+
+
+
+
+
+
+
+
+
